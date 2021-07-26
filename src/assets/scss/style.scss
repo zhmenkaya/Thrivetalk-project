@@ -39,6 +39,8 @@ a{
     display: block;
 }
 
+@import "./normalize";
+
 @import "./header";
 @import "./logo";
 @import "./menu";
