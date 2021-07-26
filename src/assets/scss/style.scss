@@ -20,10 +20,10 @@
 }
 
 @font-face{
-    font-family: "LarsseitMedium";
-    src: url("./../fonts/Larsseit-Medium.ttf") format("ttf");
+    font-family: "LarsseitLight";
+    src: url("./../fonts/Larsseit-Light.ttf") format("ttf");
     font-style: normal;
-    font-weight: 500;
+    font-weight: 300;
 }
 
 
@@ -41,3 +41,5 @@ a{
 @import "./header";
 @import "./logo";
 @import "./menu";
+
+@import "./why";
