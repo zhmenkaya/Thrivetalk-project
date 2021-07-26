@@ -1,0 +1,33 @@
+.header{
+    &__wrapper{}
+    &__top{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 27px;
+        margin-bottom: 187px;
+    }
+    &__menu{
+        display: flex;
+        flex-direction: row;
+    }
+    &__content{
+        display: flex;
+    }
+    &__left-block{
+        width: 484px;
+    }
+    &__title{
+        font-family: "LarsseitExtBold", sans-serif;
+        font-size: 48px;
+        line-height: 53px;
+        letter-spacing: -0.035em;
+        color: #22356F;
+    }
+    &__text{
+        font-family: "LarsseitMedium";
+        font-size: 24px;
+        line-height: 42px;
+        color: #22356F;
+    }
+}
+

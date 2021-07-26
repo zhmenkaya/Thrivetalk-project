@@ -1,6 +1,44 @@
-body {
-    background-color: rgb(37, 37, 37);
-    color: white;
+@font-face{
+    font-family: "LarsseitMedium";
+    src: url("./../fonts/Larsseit-Medium.ttf") format("ttf");
+    font-style: normal;
+    font-weight: 500;
 }
 
-@import './style2.scss'
+@font-face{
+    font-family: "LarsseitThin";
+    src: url("./../fonts/Larsseit-Thin.ttf") format("ttf");
+    font-style: normal;
+    font-weight: 100;
+}
+
+@font-face{
+    font-family: "LarsseitExtBold";
+    src: url("./../fonts/Larsseit-ExtraBold.ttf") format("ttf");
+    font-style: normal;
+    font-weight: 800;
+}
+
+@font-face{
+    font-family: "LarsseitMedium";
+    src: url("./../fonts/Larsseit-Medium.ttf") format("ttf");
+    font-style: normal;
+    font-weight: 500;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+
+a{
+    display: block;
+}
+
+@import "./header";
+@import "./logo";
+@import "./menu";
