@@ -1,0 +1,24 @@
+.about{
+    display: flex;
+    &__title{
+        font-family: "LarsseitThin", sans-serif;
+        width: 100;
+        font-size: 16px;
+        line-height: 23px;
+        letter-spacing: 0.06em;
+        color: #22356F;
+        margin: 156px 0 0 106px;
+    }
+    &__text{
+        font-family: "LarsseitMedium", sans-serif;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 34px;
+        letter-spacing: 0.005em;
+        color: #22356F;
+    }
+    &__wrap-text{
+        width: 592px;
+        margin: 150px auto 0;
+    }
+}

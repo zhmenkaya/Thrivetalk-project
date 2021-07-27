@@ -1,5 +1,7 @@
 .header{
-    &__wrapper{}
+    &__wrapper{
+        background-color:#F4F9E2;
+    }
     &__top{
         display: flex;
         justify-content: space-between;
