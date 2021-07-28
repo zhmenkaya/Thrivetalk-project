@@ -38,5 +38,28 @@
         color: #22356F;
         margin-bottom: 63px;
     }
+    &__wrap-img{
+        background-image: url("../images/image/linkedin-sales-navigator-406825.svg");
+        border-radius:40%;
+        -webkit-border-radius:40%    ;
+        -moz-border-radius:40%    ;
+        -ms-border-radius:40%    ;
+        -o-border-radius:40% ;
+        overflow: hidden;
+        float:left;
+        margin:.5em 10px .5em 0;
+        position:relative; /* this is important too */
+        border:1px solid #ccc;
+        width:545px;
+        height:808px;
+    }
+    &__image{
+        width: 100%;
+        object-fit: cover;
+        position:absolute;
+        top:-40px;
+        left:-50px;
+        border-radius:20% 50% 50% 50% / 60% 40% 80% 60%;
+    }
 }
 

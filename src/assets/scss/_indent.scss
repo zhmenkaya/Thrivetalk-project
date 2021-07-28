@@ -1,3 +1,9 @@
 .indent{
-    grid-area: 3/1/4/span 3;
+    &--hight-row22px{
+        grid-area: 3/1/4/span 3;
+    }
+    &--hight-row40px{
+        grid-area: 6/1/7/span 3;
+    }
+    
 }
