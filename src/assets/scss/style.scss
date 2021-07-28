@@ -29,7 +29,7 @@
 
 
 *{
-    border: 1px solid red;
+    // border: 1px solid red;
 }
 
 a{
@@ -37,10 +37,11 @@ a{
 }
 
 @import "./normalize";
-
+@import "./components/button";
 @import "./header";
 @import "./logo";
 @import "./menu";
 
 @import "./why";
 @import "./about";
+@import "./card"

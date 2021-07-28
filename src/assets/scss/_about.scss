@@ -1,5 +1,9 @@
 .about{
     display: flex;
+    flex-direction: column;
+    &__top{
+        display: flex;
+    }
     &__title{
         font-family: "LarsseitThin", sans-serif;
         width: 100;
@@ -20,5 +24,56 @@
     &__wrap-text{
         width: 592px;
         margin: 150px auto 0;
+    }
+    &__inner{
+        display: flex;
+    }
+    &__subtitle{
+        font-family: "LarsseitThin", sans-serif;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        letter-spacing: 0.06em;
+        color: rgba(34, 53, 111, 0.5);
+        margin: 76px 0 24px;
+    }
+    &__item{
+        width: 25%;
+        height: 360px;
+    }
+    &__caption{
+        font-family: "LarsseitMedium", sans-serif;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 34px;
+        letter-spacing: -0.006em;
+        color: #FFFFFF;
+        margin:95px 0 0 78px;
+        position: relative;
+        &::before{
+            content: "";
+            display: block;
+            width: 255px;
+            height: 2px;
+            background-color:#FFFFFF;
+            position: absolute;
+            top: -23;
+            left: -23;
+        }
+        &::after{
+            content: "";
+            display: block;
+            width: 9px;
+            height: 9px;
+            border-radius: 50%;
+            background-color:#E9B730;
+            position: absolute;
+            top: 13;
+            left: -29;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+        }
     }
 }
