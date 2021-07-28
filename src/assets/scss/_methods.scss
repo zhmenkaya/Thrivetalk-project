@@ -1,5 +1,63 @@
 .methods{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 480px);
+    grid-template-rows: repeat(2, 480px) 22px repeat(2, 240px);
+    &__caption{
+        font-family: "LarsseitMedium", sans-serif;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 34px;
+        letter-spacing: -0.006em;
+        color: #FFFFFF;
+        max-width: 157px;
+        margin: 126px 0 0 104px;
+        position: relative;
+        &::before{
+            content: "";
+            display: block;
+            width: 255px;
+            height: 2px;
+            background-color:#FFFFFF;
+            position: absolute;
+            top: -23;
+            left: -23;
+        }
+        &::after{
+            content: "";
+            display: block;
+            width: 9px;
+            height: 9px;
+            border-radius: 50%;
+            background-color:#E9B730;
+            position: absolute;
+            top: 13;
+            left: -29;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+        }
+    }
+    &__subtitle{
+        font-family: "LarsseitLight", sans-serif;
+        font-weight: 300;
+        font-size: 28px;
+        line-height: 33px;
+        letter-spacing: -0.03em;
+        color: #22356F;
+        display: block;
+        max-width: 298px;
+        text-align: left;
+        margin: 55px auto 28px;
+    }
+    &__text{
+        font-family: "LarsseitThin", sans-serif;
+        font-weight: 100;
+        font-size: 16px;
+        line-height: 25px;
+        letter-spacing: -0.03em;
+        color: rgba(34, 53, 111, 0.5);
+        max-width: 298px;
+        margin: 0 auto;
+    }
 }

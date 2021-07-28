@@ -1,0 +1,24 @@
+.grid-card{
+    &--blue-background{
+        background-color: #22356F;
+    }
+    &--acvamarin-background{
+        background-color: #0052C1;
+    }
+    &--image-background{
+        background-image: url(../images/image/joanna-kosinska-340748.svg);
+        width: 100%;
+    }
+    &--lightblue-background{
+        background-color: #62D0DF;
+    }
+    &--gray-background{
+        background-color: #DEE1FF;
+    }
+    &--violet-background{
+        background-color: #8F00FF;
+    }
+    &--white-background{
+        background-color: #fff;
+    }
+}
