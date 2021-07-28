@@ -52,14 +52,15 @@
         border:1px solid #ccc;
         width:545px;
         height:808px;
+        clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
     }
-    &__image{
-        width: 100%;
-        object-fit: cover;
-        position:absolute;
-        top:-40px;
-        left:-50px;
-        border-radius:20% 50% 50% 50% / 60% 40% 80% 60%;
-    }
+    // &__image{
+    //     width: 100%;
+    //     object-fit: cover;
+    //     position:absolute;
+    //     top:-40px;
+    //     left:-50px;
+    //     border-radius:20% 50% 50% 50% / 60% 40% 80% 60%;
+    // }
 }
 
