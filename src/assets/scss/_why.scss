@@ -4,7 +4,7 @@
     justify-content: space-between;
     color: #FFFFFF;
     &__left-block{
-        width: 555px;
+        width: 583px;
         margin: 151px auto 95px;
     }
     &__title{
@@ -20,7 +20,9 @@
         font-size: 24px;
         line-height: 35px;
     }
-    &__wrap-img{}
+    &__wrap-img{
+        object-fit: cover;
+    }
     &__image{
         width: 100%;
     }
