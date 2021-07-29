@@ -1,0 +1,109 @@
+.header{
+    background: #fff  url("../images/image/linkedin-sales-navigator-406825.svg");
+    background-position:right;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    position:relative;
+    overflow:hidden;
+    display: flex;
+    z-index: 10;
+    &::before{
+        content:'';
+        position:absolute;
+        left:24%;
+        top:10%;
+        width:91%;
+        height:79%;
+        border-radius:20% 50% 50% 50% / 60% 40% 80% 60%;
+        transform: rotate(122deg);
+        box-shadow: 0px 0px 0px 100px #5fba7d;
+        -webkit-transform: rotate(122deg);
+        -moz-transform: rotate(122deg);
+        -ms-transform: rotate(122deg);
+        -o-transform: rotate(122deg);
+        -webkit-border-radius:20% 50% 50% 50% / 60% 40% 80% 60%;
+        -moz-border-radius:20% 50% 50% 50% / 60% 40% 80% 60%;
+        -ms-border-radius:20% 50% 50% 50% / 60% 40% 80% 60%;
+        -o-border-radius:20% 50% 50% 50% / 60% 40% 80% 60%;
+        
+}
+    &__wrapper{
+        // background-color:#F4F9E2;
+        width: 1180px;
+        margin: 0 auto 0 0;
+        z-index: 0;
+    }
+    &__top{
+        max-width: 1000px;
+        display: flex;
+        justify-content: space-between;
+        
+        margin: 0 auto 182px;
+        padding-top: 27px;
+        // margin-bottom: 182px;
+    }
+    &__menu{
+        display: flex;
+        flex-direction: row;
+
+    }
+    &__btn{
+        width: 145px;
+        height: 50px;
+    }
+    &__content{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__left-block{
+        width: 489px;
+        margin-left: 179px;
+    }
+    &__logo{
+        margin-bottom: 12px;
+    }
+    &__title{
+        font-family: "LarsseitExtBold", sans-serif;
+        font-size: 48px;
+        line-height: 57px;
+        letter-spacing: -0.06em;
+        color: #22356F;
+        margin-bottom: 65px;
+    }
+    &__text{
+        font-family: "LarsseitMedium", sans-serif;
+        font-size: 24px;
+        line-height: 45px;
+        color: #22356F;
+        letter-spacing: 0.004em;
+        margin-bottom: 23px;
+    }
+    // &__wrap-img{
+    //     max-width:573px;
+    //     position:relative;
+    //     overflow:hidden;
+    //     &::before{
+    //         content:'';
+    //         position:absolute;
+    //         left:26%;
+    //         width:100%;
+    //         height:100%;
+    //         border-radius:50% 50% 50% 50% / 60% 40% 80% 60%;
+    //         transform: rotate(24deg);
+    //         box-shadow: 0px 0px 0px 300px #5fba7d;
+    //         -webkit-transform: rotate(24deg);
+    //         -moz-transform: rotate(24deg);
+    //         -ms-transform: rotate(24deg);
+    //         -o-transform: rotate(24deg);
+    //         -webkit-border-radius:50% 50% 50% 50% / 60% 40% 80% 60%;
+    //         -moz-border-radius:50% 50% 50% 50% / 60% 40% 80% 60%;
+    //         -ms-border-radius:50% 50% 50% 50% / 60% 40% 80% 60%;
+    //         -o-border-radius:50% 50% 50% 50% / 60% 40% 80% 60%;
+    //     }
+    // }
+    // &__image{
+    //         width: 100%;
+    //         object-fit: cover;
+    // }
+
+}
