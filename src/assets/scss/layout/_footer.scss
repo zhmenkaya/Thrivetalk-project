@@ -1,0 +1,48 @@
+.footer{
+    &__top{
+        display: flex;
+    }
+    &__right-block{
+        display: flex;
+    }
+    &__some-info{
+        max-width: 33.33%;
+    }
+    &__enfold-health{
+        max-width: 33.33%;
+    }
+
+    &__office-hourse{
+        max-width: 33.33%;
+    }
+
+    &__title{
+        font-family: "LarsseitMedium", sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 11px;
+        letter-spacing: -0.006em;
+        color: #22356F;
+    }
+
+    &__text{
+        font-family: "LarsseitThin", sans-serif;
+        font-weight: 100;
+        font-size: 14px;
+        line-height: 23px;
+        letter-spacing: -0.006em;
+        color: rgba(34, 53, 111, 0.5);
+    }
+    &__bottom{
+        background-color: #62D0DF;
+    }
+    &__copyright{
+        font-family: "LarsseitLight", sans-serif;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 11px;
+        letter-spacing: -0.006em;
+        color: #FFFFFF;
+        margin: 0 0 26px 194px;
+    }
+}
