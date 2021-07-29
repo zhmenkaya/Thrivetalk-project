@@ -1,0 +1,49 @@
+.smile{
+    color:#fff;
+    &__inner{
+        max-width: 580px;
+        margin-left: 180px;
+    }
+    &__title{
+        font-family: "LarsseitThin", sans-serif;
+        width: 100;
+        font-size: 16px;
+        line-height: 12px;
+        letter-spacing: 0.06em;
+        margin: 103px 0 230px 0;
+    }
+    &__subtitle{
+        font-family: "LarsseitMedium", sans-serif;
+        font-weight: 500;
+        font-size: 64px;
+        line-height: 94px;
+        letter-spacing: -0.01em;
+        margin-bottom: 75px;
+    }
+    &__text{
+        font-family: "LarsseitLight",sans-serif;
+        font-weight: 200;
+        font-size: 36px;
+        line-height: 53px;
+        letter-spacing: -0.005em;
+        margin-bottom: 65px;
+    }
+    &--blue-background{
+        grid-area: 8/1/9/span 2;
+        background-color: #22356F;
+    }
+    &--wrap-img{
+        background-image: url("../images/image/charles-etoroma-390119.svg");
+    }
+    &__link{
+        display: inline-block;
+        text-decoration: none;
+        font-family: "LarsseitLight", sans-serif;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 23px;
+        letter-spacing: 0.1em;
+        color: #62D0DF;
+        margin-bottom: 52px;
+    }
+}

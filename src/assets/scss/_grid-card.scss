@@ -27,34 +27,5 @@
     &--also-know{
         grid-area: 7/2/8/4;
     }
-    &__title{
-        font-family: "LarsseitThin", sans-serif;
-        width: 100;
-        font-size: 16px;
-        line-height: 12px;
-        letter-spacing: 0.06em;
-        color: #22356F;
-        margin: 103px 0 225px 106px;
-    }
-    &__text{
-        max-width: 676px;
-        font-family: "LarsseitMedium", sans-serif;
-        font-weight: 500;
-        font-size: 36px;
-        line-height: 53px;
-        letter-spacing: -0.01em;
-        color: #22356F;
-        margin: 0 0 152px 106px;
-    }
-    &__link{
-        display: inline-block;
-        text-decoration: none;
-        font-family: "LarsseitLight", sans-serif;
-        font-weight: 300;
-        font-size: 16px;
-        line-height: 23px;
-        letter-spacing: 0.1em;
-        color: #FAB63E;
-        margin: 0 0 42px 106px;
-    }
+    
 }
