@@ -1,5 +1,4 @@
 .header{
-    // background: #fff;
     background: linear-gradient(213.71deg, #FFFFFF 11.23%, #F4F9E2 48.4%);
     // display: flex;
     // justify-content: end;
@@ -35,6 +34,7 @@
     .container{
         max-width: 1080px;
         margin: 0 auto;
+        padding: 0 15px;
     }
 
     &__wrapper{
