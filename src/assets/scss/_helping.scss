@@ -1,0 +1,90 @@
+.helping{
+    background: linear-gradient(213.71deg, #FFFFFF 11.23%, #F4F9E2 48.4%);
+    .container{
+        max-width: 1080px;
+        margin: 0 auto;
+    }
+    &__inner{
+        display: flex;
+        justify-content: space-around;
+    }
+    &__left-block{
+        width: 489px;
+        margin-left: 179px;
+    }
+    &__logo{
+        margin-bottom: 12px;
+    }
+    &__title{
+        font-family: "LarsseitExtBold", sans-serif;
+        font-size: 48px;
+        line-height: 57px;
+        letter-spacing: -0.06em;
+        color: #22356F;
+        margin-bottom: 65px;
+    }
+    &__text{
+        font-family: "LarsseitMedium", sans-serif;
+        font-size: 24px;
+        line-height: 45px;
+        color: #22356F;
+        letter-spacing: 0.004em;
+        margin-bottom: 23px;
+    }
+    &__wrap-img{
+        width: 545px;
+        height: 807px;
+        border-radius:40px;
+        overflow:hidden;
+        border: 1px solid red;
+        -webkit-border-radius:300px;
+        -moz-border-radius:300px;
+        -ms-border-radius:300px;
+        -o-border-radius:300px;
+        transform: rotate(238deg);
+        -webkit-transform: rotate(238deg);
+        -moz-transform: rotate(238deg);
+        -ms-transform: rotate(238deg);
+        -o-transform: rotate(238deg);
+        margin-top: -20px;
+        margin-right: -85px;
+        z-index: 5;
+}
+        //position:relative;
+        //&:;
+        //:before;
+        //content:url(../images/image/Rectangle.svg);
+        //position:absolute;
+        //left: 51%;
+        //top: -1%;
+        //z-index: -1;
+        //:;
+        //position:absolute;
+        //left:26%;
+        //width:100%;
+        //height:100%;
+        //border-radius:50% 50% 50% 50% / 60% 40% 80% 60%;
+        //transform: rotate(24deg);
+        //box-shadow: 0px 0px 0px 300px #5fba7d;
+        //-webkit-transform: rotate(24deg);
+        //-moz-transform: rotate(24deg);
+        //-ms-transform: rotate(24deg);
+        //-o-transform: rotate(24deg);
+        //-webkit-border-radius:50% 50% 50% 50% / 60% 40% 80% 60%;
+        //-moz-border-radius:50% 50% 50% 50% / 60% 40% 80% 60%;
+        //-ms-border-radius:50% 50% 50% 50% / 60% 40% 80% 60%;
+        //-o-border-radius:50% 50% 50% 50% / 60% 40% 80% 60%;
+        //:;
+    // }
+    &__image{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position:  right bottom;
+            transform: rotate(-238deg);
+            -webkit-transform: rotate(-238deg);
+            -moz-transform: rotate(-238deg);
+            -ms-transform: rotate(-238deg);
+            -o-transform: rotate(-238deg);
+}
+}
