@@ -1,16 +1,16 @@
 .helping{
     background: linear-gradient(213.71deg, #FFFFFF 11.23%, #F4F9E2 48.4%);
     .container{
-        max-width: 1080px;
+        max-width: 1050px;
         margin: 0 auto;
+        padding: 0 15px;
     }
     &__inner{
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
     }
     &__left-block{
         width: 489px;
-        margin-left: 179px;
     }
     &__logo{
         margin-bottom: 12px;
@@ -46,7 +46,7 @@
         -moz-transform: rotate(238deg);
         -ms-transform: rotate(238deg);
         -o-transform: rotate(238deg);
-        margin-top: -20px;
+        margin-top: -80px;
         margin-right: -85px;
         z-index: 5;
 }
