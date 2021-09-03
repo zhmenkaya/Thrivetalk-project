@@ -1,5 +1,5 @@
 .header{
-    background: linear-gradient(90deg, #F4F9E2 77.6%, #E5E5E5 77.6% 77.7%);
+    background: linear-gradient(90deg, #F4F9E2 77.6%, #fff 77.6% 77.7%);
     // display: flex;
     // justify-content: end;
     // background-position:right;
@@ -32,7 +32,7 @@
         // -ms-border-radius:20% 50% 50% 50% / 60% 40% 80% 60%;
         // -o-border-radius:20% 50% 50% 50% / 60% 40% 80% 60%;
     .container{
-        max-width: 1050px;
+        max-width: 1097px;
         margin: 0 auto;
         padding: 0 15px;
     }
@@ -41,17 +41,18 @@
     &__top{
         display: flex;
         justify-content: space-between;
-        align-items: baseline;
         padding-top: 28px;
     }
     &__menu{
         display: flex;
         flex-direction: row;
+        margin-right: -91px;
 
     }
     &__btn{
         width: 145px;
         height: 50px;
+        margin-bottom: 164px;
     }
     &__content{
         display: flex;
@@ -81,7 +82,7 @@
     }
     &__wrap-img{
         width: 545px;
-        height: 807px;
+        height: 811px;
         border-radius:40px;
         overflow:hidden;
         border: 1px solid red;
@@ -94,7 +95,7 @@
         -moz-transform: rotate(241deg);
         -ms-transform: rotate(241deg);
         -o-transform: rotate(241deg);
-        margin-top: -80px;
+        margin-top: -70px;
         margin-right: -85px;
         z-index: 5;
 }
@@ -125,14 +126,15 @@
         //:;
     // }
     &__image{
-            width: 100%;
+            width: auto;
             height: 100%;
+            margin: 0 auto;
             object-fit: none;
             object-position:  right bottom;
-            transform: rotate(-238deg);
-            -webkit-transform: rotate(-238deg);
-            -moz-transform: rotate(-238deg);
-            -ms-transform: rotate(-238deg);
-            -o-transform: rotate(-238deg);
+            transform: rotate(-241deg);
+            -webkit-transform: rotate(-241deg);
+            -moz-transform: rotate(-241deg);
+            -ms-transform: rotate(-241deg);
+            -o-transform: rotate(-241deg);
 }
 }

@@ -4,14 +4,29 @@
         display: flex;
     }
     &__item{
-        margin-right: 35px;        
+        margin-right: 25px;
+        position: relative;
+        &:last-child{
+            margin-right: none;        
+        } 
+        &:first-child::after{
+            content:"";
+            width: 50px;
+            height: 2px;
+            box-shadow: inset 0px -1px 0px #22356F;
+            position: absolute;
+            top: 37px;
+            left: -8px;
+        }       
     }
+    
     &__link{
         text-decoration: none;
         font-family: "LarsseitThin", sans-serif;
         font-weight: 100;
         font-size: 14px;
-        line-height: 16px;
+        line-height: 36px;
         color: #22356F;
+        
     }
 }
