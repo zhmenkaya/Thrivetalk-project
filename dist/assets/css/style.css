@@ -476,28 +476,7 @@ template {
     margin-bottom: 51px;
 }
 
-.header__wrap-img {
-    width: 545px;
-    height: 811px;
-    border-radius: 40px;
-    overflow: hidden;
-    border: 1px solid red;
-    -webkit-border-radius: 300px;
-    -moz-border-radius: 300px;
-    -ms-border-radius: 300px;
-    -o-border-radius: 300px;
-    transform: rotate(241deg);
-    -webkit-transform: rotate(241deg);
-    -moz-transform: rotate(241deg);
-    -ms-transform: rotate(241deg);
-    -o-transform: rotate(241deg);
-    margin-top: -231px;
-    margin-right: -126px;
-    z-index: 5;
-    position: relative;
-}
-
-.header__image {
+.header__wrap-img__image {
     width: auto;
     height: 100%;
     margin: 0 auto;

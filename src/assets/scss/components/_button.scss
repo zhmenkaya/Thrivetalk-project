@@ -12,6 +12,8 @@
         -moz-border-radius: 50px;
         -ms-border-radius: 50px;
         -o-border-radius: 50px;
+        cursor: pointer;
+        z-index: 1;
     }
     &--orange-background{
         font-family: "LarsseitMedium", sans-serif;
